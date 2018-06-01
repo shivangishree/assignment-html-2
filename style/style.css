@@ -1,0 +1,143 @@
+.body{
+	margin: auto;
+	font-family: Lato,sans-serif;
+}
+
+/*css for header with navigation*/
+.head-wrap {
+	width: 100%;
+	background-color: lightgreen;
+}
+.head-wrap li{
+	display: inline;
+	text-decoration: none;
+	padding: 10px;
+}
+.head-wrap ul{
+	padding-top: 10px;
+}
+.head-wrap nav{
+	color:green;
+	margin-top: 0px;
+	padding-top: 0;
+	float: right;
+	width: 600px
+	height:40px;
+}
+.head-wrap h1{
+	color: red;	
+	margin-top: 5px;
+	width: 100px;
+	float:left;
+	height: 40;		
+} 
+.container_12.head-wrap {
+	margin-left: 161px;
+	width: 960px;
+}
+.fixed-header{        
+	position: fixed; 
+	top: 0;
+}
+
+/*css for header*/
+header{
+	font-family: 'Kaushan Script', cursive;
+	background: #a6e0a6;
+	margin-left: 161px;
+	width: 960px;
+	height: 100px;	
+	margin-top: 50px;
+	padding-bottom: 0px;
+	position: relative;
+}
+header p{
+	letter-spacing: 2px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+header h2{
+	text-transform: uppercase;
+}
+
+/*css for images*/
+.images{
+	margin-top: 10px;   
+	padding-left: -5px; 
+}
+img:hover{
+	transform: scale(1.1); 
+}
+
+/*css for description*/
+.description{
+	padding-left: 0px;
+}
+.description h2{
+	width: 300px;
+	text-transform: uppercase;
+}
+
+/*css for Hero-unit*/
+.hero-unit{
+	margin-left: 220px;
+}
+
+/*css for column-row section*/
+.column-row{
+	width: 950px;
+	border: thin;
+	border-style: solid;
+	border-color: green;
+	font-size: 20px;
+	font-family: Lato,sans-serif;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.column2 {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 150px 100px;
+	grid-gap: 10px;
+	background-color: #a6e0a6;
+	padding: 10px;
+	width: 500px;
+	margin-left: 0px;
+}
+.column-row p{
+	margin-top: 25px;
+    width: 255px;
+}
+.column2.grid_7{
+	margin-left: 50px;
+}
+.column2 p{
+	width: 300px;
+} 
+.column2>div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding:20px 0;
+	font-size: 20px;
+}
+
+/*css for footer*/
+footer{
+	font-family: 'Kaushan Script', cursive;
+	background: #a6e0a6;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	position: fixed;
+	bottom: 0;
+	width: 960px;
+	height: 50px;
+	margin-left: 161px;
+}
+footer p{
+	float: left;
+}
+footer span{
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
